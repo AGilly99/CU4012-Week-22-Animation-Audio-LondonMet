@@ -19,7 +19,7 @@ TileEditor::TileEditor(sf::RenderWindow* hwnd, Input* in, GameState* game, sf::V
 
 	// Set up tile manager
 	tileManager->setCollectableTexture("gfx/Collectable.png");
-	tileManager->setPlatformTexture("gfx/Platform.png");
+	tileManager->setPlatformTexture("gfx/Tile (2).png");
 	tileManager->setWallTexture("gfx/Wall.png");
 	tileManager->setInput(input);
 	tileManager->setWindow(window);
